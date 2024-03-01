@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #1f1f1f;
+  --secondary-color: #ffffff;
+  --color: #c4f82a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  background-color: black;
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 400px;
+  height: 700px;
+  background-color: var(--primary-color);
+  margin: auto;
+  border-radius: 10px;
+
+  padding: 30px;
+}
+
+.container .image {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.container .image img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.name,
+.button a button {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.name {
+  padding-top: 20px;
+  color: var(--secondary-color);
+}
+
+.name h2 {
+  padding-bottom: 7px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.name p{
+    color: var(--color);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.button p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.button a button{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #333333;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.button a:hover button{
+    background-color: var(--color);
+    color: black;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+
+}
